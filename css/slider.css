@@ -1,0 +1,53 @@
+#fon_slider{
+    width: 100% auto;
+    height: 300px;
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+#slider {
+    z-index: 9;
+    width: 1245px auto;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 60 7px;
+    position: relative;
+    background: #3366cc; 
+ }
+ #slider ul,
+ #slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+ }
+ #slider ul {
+    width: 9999px; 
+ }
+ #slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 1245px ;
+    height: 300px;
+ }
+ #slider #nav {
+    position: absolute;
+    left: 15px;
+    bottom: 12px; 
+ }
+ #slider #nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+ }
+ #slider #nav span.on {
+    background: #000000;
+ }

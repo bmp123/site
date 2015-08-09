@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: none;
+    outline: none;
+}
+.header{
+    z-index: 11;
+    width: 100% auto;
+    height: 100px;
+    background: #ffffff;
+    box-shadow: 0 1px 7px #000;
+}
+#logo{
+    width: 170;
+    height: 40;
+    position: absolute;
+    left: 10%;
+    top: 27;
+    color: #666666;
+}
+#txt_logo{
+    width: 55px;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 40;
+    float: left;
+    color: #ff0000;
+}
+#mini_txt_logo{
+    width: 110px;
+    font-weight: 500;
+    font-size: 14;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#ugol_number{
+    z-index: 10;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 30px solid #ff0000;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    right: 300;
+}
+#txt_number{
+    width:250px;
+    height: 80px;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    color: azure;
+}
+#number{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    background: #ff0000;
+    
+}
+.body{
+    width: 100% auto;
+    height: auto;
+    margin-top:10px;
+}
+#upload{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+#add{
+    width: 300px;
+    height: 400px;
+    border: none;
+    box-shadow: 0 0 7px black;
+    cursor: pointer;
+    float: left;
+}
+#remove{
+    width: 300px;
+    height: 400px; 
+    border: none;
+    box-shadow: 0 0 7px black;
+    cursor: pointer;
+    margin-left: 3px;
+}
+#admin{
+    width: 605px;
+    margin-left: 201;
+}
+#conteiner{
+    width: 400px ;
+    height: 300px;
+    margin-bottom: 4px;
+    position: relative;
+    display: inline-block;
+    margin-right: 4px;
+}
+#con_a{
+    color: black;
+    text-decoration: none;
+}
+#div_cat{
+    width: 200px;
+    min-height: 30px;
+    background: green;
+    float: left;
+    overflow:hidden;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#conteiner img{
+    width: 400px;
+    height: 300px;
+}
+#category{
+    width: 400px;
+}
+#menu{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 39px;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.footer{
+    width:  100% auto;
+    height: 200px;
+    background: #3366cc;
+    margin-top: 15px;
+}
+.error-box{
+    color: red;
+    font-size: 12px;
+    background: none;
+}
+#login_form{
+    height: 100px;
+    width: 260px;
+    background: none;
+    position: absolute;
+    right: 20;
+    top: 0;
+    
+}
+#login{
+    width: 150px;
+    height: 25px;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+#password{
+    width: 150px;
+    height: 25px;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    float: left;
+}
+#login_button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: -38px;
+    cursor: pointer;
+    box-shadow: 1px 0 5px black;
+}
+#login_button:active{
+box-shadow: 0 0 2px black;
+}
+#reg_link a{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15;
+    margin-top: 5px;
+    text-decoration: none;
+}
+#reg_link a:hover{
+    text-decoration: underline;
+}
+#error-box_index{
+    width: 100px;
+    position: absolute;
+    right: 350;
+    top: 32;
+    visibility: hidden;
+}
+#welcom{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 38;
+    color: white;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+}
+#welcom a{
+    margin-left:10px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#welcom a:hover{
+    text-decoration: underline;
+}
